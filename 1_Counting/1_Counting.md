@@ -26,14 +26,12 @@ NUMBER_OF_MONTHLY_VISITORS = 412.0
 NUMBER_OF_CITIES_IN_TURKEY = 81
 ```
 
-
-```python
-print "At least " + \
-      str(int(math.ceil(NUMBER_OF_MONTHLY_VISITORS / NUMBER_OF_CITIES_IN_TURKEY))) \
-      + " of the visitors hit the website from same city."
-```
+Output : 
 
 
 ```python
-
+print('At least ' + str(int(math.ceil(NUMBER_OF_MONTHLY_VISITORS / NUMBER_OF_CITIES_IN_TURKEY))) + ' of the visitors hit the website from same city.')
 ```
+
+    At least6 of the visitors hit the website from same city.
+
